@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Checkbox</title>
+        <title>R&aacute;dio e Checkbox</title>
     </head>
     <body>
-        <form >
-            <p>Selecione uma das Op&ccedil;&otilde;es: </p>
-            <input type="radio" id="radItem1" name="radOpcoes value=1"/>
-            <label for="radItem1">Op&ccedil;&atilde;o 1 </label>
-            <input type="radio" id="radItem2" name="radOpcoes value=2"/>
-            <label for="radItem2">Op&ccedil;&atilde;o 2</label>
-            <br/>
-            <input type="checkbox" id="ckResposta">
-            <label for="ckResposta">Confirma essa resposta?</label> 
+        <form action="login.php" method="post">
+            <label for="txtLogin">Usu&aacute;rio: </label> <br>
+            <input id="txtLogin" type="text"/> <br>
+            <label for="txtSenha">Senha: </label><br>
+            <input id="txtSenha" type="password"/> <br>
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>
